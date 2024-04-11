@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+input, textarea{
+    outline: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    height: 922px;
+    padding: 176px 0 177px 150px;
+
+    background-image: url('../img/Contact.png');
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.yellow-top1{
+    width: 88px;
+    height: 85px;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+}
+.yellow-bottom{
+    width: 127px;
+    height: 127px;
+    position: absolute;
+    top: 514px;
+    left: 762px;
+    z-index: 3;
+}
+.red-top1{
+    width: 214px;
+    height: 208px;
+    position: absolute;
+    top: 560px;
+    left: 800px;
+}
+.main__map{
+    border-radius: 45%;
+    
+}
+.form-title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    color: #3e3e3e;
+}
+.form__input{
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    width: 557px;
+    height: 93px;
+    background-color: #fff;
+    padding: 30px 45px;
+    display: block;
+    margin-bottom: 8px;
+}
+.form__message{
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    width: 557px;
+    height: 189px;
+    display: block;
+    background-color: #fff;
+    padding: 30px 45px 125px;
+    resize: none;
+}
+.form__btn{
+    border-radius: 500px;
+    width: 218px;
+    height: 73px;
+    background-color:  #fad34f;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 23px;
+}
+.footer{
+    padding: 79px 0 103px;
+    border: 1px solid #d8d8d8;
+    background-color: fafafa;
+    position: relative;
+    overflow: hidden;
+}
+.red-top2{
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    top: -25px;
+
+}
+.blue-bottom{
+    position: absolute;
+    top: 0;
+    left: 1310px;
+}
+.yellow-top2{
+    position: absolute;
+    top: 50px;
+    left: 1430px;
+}
+.footer-list__icon{
+    width: 20px;
+    height: 16px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    top: 80px;
+    left: 340px;
+}
