@@ -27,6 +27,7 @@ html{
     display: flex;
     justify-content: space-between;
     position: relative;
+    overflow: hidden;
 }
 .yellow-top1{
     width: 88px;
@@ -49,10 +50,17 @@ html{
     position: absolute;
     top: 560px;
     left: 800px;
+    z-index: 1;
 }
 .main__map{
-    border-radius: 45%;
-    
+    height: 976px;
+    width: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    left: 814px;
+    top: -50px;
+    z-index: 0;
+
 }
 .form-title{
     font-weight: 400;
